@@ -13,9 +13,19 @@
   color: #fff;
 }
 
+.button-green:hover {
+  background: #6a9a36;
+  transition: all ease .3s;
+}
+
 .button-green-light {
   background: #aacc87;
   color: #fff;
+}
+
+.button-green-light:hover {
+  background: #6a9a36;
+  transition: all ease .3s;
 }
 
 .button-blue {
@@ -23,7 +33,7 @@
   color: #fff;
 }
 
-.button-gray {
-  background: #aaa;
-  color: #fff;
+.button-blue:hover {
+  background: #4069ff;
+  transition: all ease .3s;
 }

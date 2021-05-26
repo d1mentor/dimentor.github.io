@@ -1,8 +1,9 @@
 .header {
+  position: fixed;
   width: 100%;
   background: #fff;
   top: 0;
-  opacity: 0.95;
+  opacity: 0.9;
 }
 
 .header-logo {
@@ -29,6 +30,11 @@
   text-decoration: none;
   color: gray;
   font-weight: bold;
+}
+
+.header-nav-link:hover {
+  color: #333;
+  transition: all ease .3s;
 }
 
 @media (max-width: 640px) {

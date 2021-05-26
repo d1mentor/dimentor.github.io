@@ -15,20 +15,23 @@
   <link rel="stylesheet" href="css/fares.css">
   <link rel="stylesheet" href="css/action.css">
   <link rel="stylesheet" href="css/header.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="js/parallax.js-1.5.0/parallax.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="js/header.js"></script>
+
 </head>
 <body>
 <div class="header">
-  <div class="container buffer-both">
-    <div class="header-logo">
-      <img class="header-logo-image" src="media/logo_test_2.png" alt="[Лучший воздух]" style="width: 100%;" />
-    </div>
+  <div class="container buffer-both" style="margin-top: 10px; margin-bottom: 10px;">
+
     <div class="header-nav">
       <ul>
         <li class="header-nav-item">
         <a class="header-nav-link" href="#intro">О нас</a>
         </li>
         <li class="header-nav-item">
-        <a class="header-nav-link" href="#team">О сигнализации</a>
+        <a class="header-nav-link" href="#about">О автоматизации</a>
         </li>
         <li class="header-nav-item">
         <a class="header-nav-link" href="#prices">Готовые комплектации</a>
@@ -44,7 +47,7 @@
   </div>
 </div>
 
-<div class="intro text-center" id="intro">
+<div class="intro text-center" id="intro" data-parallax="scroll" data-image-src="media/slogan_bg.jpg">
   <img class="intro-logo" src="media/robot_icon.png" alt="[Лого]">
   <h1 class="title-large">Автоматизация жизненного пространства</h1>
   <h2 class="text-lead">Покупайте smart-системы на любой вкус! Поможем подобрать комплектацию, или можете приобрести готовую.</h2>
@@ -53,9 +56,9 @@
   </div>
 </div>
 
-<div class="text-center">
+<div class="text-center" id="about">
   <div class="container buffer-both-large">
-    <h2 class="title-medium">О сигнализации</h2>
+    <h2 class="title-medium">О автоматизации</h2>
     <h3 class="title-small buffer-both">Аппаратная часть</h3>
 
     <div class="container">
