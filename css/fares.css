@@ -2,6 +2,10 @@
   color: gray;
 }
 
+.fares-container {
+  width: 100%;
+}
+
 .fare, .fare-head, .fare-footer {
   border-radius: 3px;
 }
