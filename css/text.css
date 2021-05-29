@@ -22,13 +22,13 @@ body {
 }
 
 .text-lead {
-  font-size: 16px;
+  font-size: 26px;
   font-weight: normal;
   line-height: 30px;
 }
 
 .text-medium {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #666;
 }
