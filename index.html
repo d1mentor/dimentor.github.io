@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="css/text.css">
   <link rel="stylesheet" href="css/button.css">
   <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <link rel="stylesheet" href="css/intro.css">
   <link rel="stylesheet" href="css/features.css">
@@ -25,28 +26,34 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script type="text/javascript" charset="utf-8" src="js/parallax.js-1.5.0/parallax.min.js"></script>
   <script type="text/javascript" charset="utf-8" src="js/header.js"></script>
+  <script src="js/menu_adaptation.js"></script>
 
 </head>
 <body>
 <div class="header">
-  <div class="container buffer-both" style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; text-align: center;">
+  <div class="container buffer-both optimized-padding" style="margin-top: 10px; margin-bottom: 10px; max-width: 100%; text-align: center; margin-left: 5%; margin-right: 5%;">
 
-    <div class="header-nav">
-      <ul>
+    <div class="header-nav optimized-align">
+      <ul class="topnav" id="myTopnav">
         <li class="header-nav-item">
         <a class="header-nav-link" href="#intro">О нас</a>
         </li>
-        <li class="header-nav-item">
+        <li class="header-nav-item menu-item-optimized">
         <a class="header-nav-link" href="#about">GSM сигнализация</a>
         </li>
-        <li class="header-nav-item">
+        <li class="header-nav-item menu-item-optimized">
         <a class="header-nav-link" href="#prices">Готовые комплектации</a>
         </li>
-        <li class="header-nav-item">
+        <li class="header-nav-item menu-item-optimized">
         <a class="header-nav-link" href="#buy">Индивидуальная комплектация</a>
         </li>
-        <li class="header-nav-item">
+        <li class="header-nav-item menu-item-optimized">
         <a class="header-nav-link" href="#contact">Контакты</a>
+        </li>
+        <li class="menu-adaptive">
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars" style="color: black;"></i>
+          </a>
         </li>
       </ul>
     </div>

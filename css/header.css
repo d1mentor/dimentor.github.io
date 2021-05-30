@@ -26,6 +26,11 @@
   display: inline-block;
 }
 
+.optimized-align {
+}
+.optimized-padding{
+}
+
 .header-nav-link {
   text-decoration: none;
   color: gray;
@@ -37,24 +42,37 @@
   transition: all ease .3s;
 }
 
-@media (max-width: 640px) {
-  .header {
-    position: inherit;
-    width: auto;
-    background: #fff;
-    top: auto;
-    opacity: 1;
-  }
-
-  .header-nav,
-  .header-logo {
-    float: none;
-  }
-
+.menu-item-optimized {
 }
 
-@media (max-width: 360px) {
-  .header-nav-item {
+.menu-adaptive {
+ display: none;
+}
+
+.responsive li {
+  float: none;
+  display: block;
+  text-align: left;
+}
+
+.responsive a.icon {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+}
+
+@media screen and (max-width: 640px) {
+  .menu-item-optimized {
+    display: none;
+  }
+  .optimized-align{
+    text-align: left;
+  }
+  .optimized-padding{
+    padding: 0px;
+  }
+  .menu-adaptive {
+    float: right;
     display: block;
   }
 }
