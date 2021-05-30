@@ -24,12 +24,13 @@
 
 /* Адаптивность кнопки хит продаж */
 
-@media (max-width: 940px) {
+@media screen and (max-width: 940px) {
   .button-hit:before { 
     content: "Заказать хит-продаж!";
   }
   .button-hit {
   background: #bd372b;
+  width: 200px;
   color: #fff;
   }
   .button-hit:hover:before {
