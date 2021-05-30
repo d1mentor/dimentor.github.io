@@ -61,6 +61,10 @@
   top: 5%;
 }
 
+.header.out {
+  transform: translateY(-100%);
+}
+
 @media screen and (max-width: 640px) {
   .menu-item-optimized {
     display: none;
@@ -75,4 +79,12 @@
     float: right;
     display: block;
   }
+  .header {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  transition: all .3s ease;
+  }
+  .nav-up {top: -100%;}
+  
 }
