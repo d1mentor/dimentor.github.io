@@ -8,6 +8,36 @@
   font-weight: bold;
 }
 
+.button-hit:before{ 
+  content: "Хит-продаж!";
+}
+
+
+.button-hit {
+  background: #bd372b;
+  color: #fff;
+}
+
+.button-hit:hover:before {
+  content: "Заказать";
+}
+
+/* Адаптивность кнопки хит продаж */
+
+@media (max-width: 940px) {
+  .button-hit:before { 
+    content: "Заказать хит-продаж!";
+  }
+  .button-hit {
+  background: #bd372b;
+  color: #fff;
+  }
+  .button-hit:hover:before {
+  content: "Заказать хит-продаж!";
+  }
+}
+
+/*--------------------------------*/
 .button-green {
   background: #8aba56;
   color: #fff;
