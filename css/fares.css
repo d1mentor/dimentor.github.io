@@ -72,3 +72,8 @@
   background: #8aba56;
   border-color: #aacc87;
 }
+
+.fare-hit {
+ padding: 5px;
+ background: red;
+}
