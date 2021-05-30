@@ -27,6 +27,14 @@ body {
   line-height: 30px;
 }
 
+@media screen and (max-width: 640px) {
+  .text-lead {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+}
+}
+
 .text-medium {
   font-size: 16px;
   line-height: 24px;
