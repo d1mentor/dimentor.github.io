@@ -5,3 +5,7 @@
 .footer-content {
   padding-top: 10px;
 }
+
+.footer-content * {
+	color: #fff;
+}

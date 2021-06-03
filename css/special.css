@@ -1,0 +1,30 @@
+.header-special {
+  margin-top: 10px;
+  margin-bottom: 10px; 
+  max-width: 100%; 
+  text-align: center; 
+  margin-left: 5%; 
+  margin-right: 5%;
+}
+
+.black {
+  color: black;
+}
+
+.intro-special {
+  margin-top: 63px;
+}
+
+.optimized-width {
+  min-width: 300px;
+}
+
+.list-left {
+  text-align: left; 
+  margin-left: 3%;
+}
+
+.list-left-large {
+  text-align: left; 
+  margin-left: 20%;
+}

@@ -24,6 +24,10 @@
   margin-bottom: 40px;
 }
 
+.buf-top-5-percent {
+  margin-top: 5%;
+}
+
 .container {
   max-width: 940px;
   margin-left: auto;
