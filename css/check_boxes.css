@@ -2,9 +2,11 @@
 .hide {
     display: none; 
 }
+
 .hide + label ~ div{
     display: none;
 }
+
 /* оформляем текст label */
 .hide + label {
     display: inline-block;
@@ -33,6 +35,7 @@
     content: "Скрыть установки ⇅";
     border-bottom: 0;
 }
+
 /* когда чекбокс активен показываем блоки с содержанием  */
 .hide:checked + label + div {
     display: block; 

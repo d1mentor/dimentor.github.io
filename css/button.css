@@ -12,7 +12,6 @@
   content: "Хит-продаж!";
 }
 
-
 .button-hit {
   background: #bd372b;
   color: #fff;
@@ -23,7 +22,6 @@
 }
 
 /* Адаптивность кнопки хит продаж */
-
 @media screen and (max-width: 940px) {
   .button-hit:before { 
     content: "Заказать хит-продаж!";
@@ -37,8 +35,8 @@
   content: "Заказать хит-продаж!";
   }
 }
-
 /*--------------------------------*/
+
 .button-green {
   background: #8aba56;
   color: #fff;

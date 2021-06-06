@@ -4,6 +4,7 @@
   height: 100%;
   border-radius: 10px; 
 }
+
 .image[tabindex="0"]:focus {
   position: fixed;
   z-index: 10;
@@ -18,6 +19,7 @@
   margin: auto;
   box-shadow: 0 0 20px #000, 0 0 0 1000px rgba(210,210,210,.4);
 }
+
 .image[tabindex="0"]:focus,  /* убрать строку, если не нужно, чтобы при клике на увеличенное фото, оно возвращалось в исходное состояние */
 .image[tabindex="0"]:focus ~ * {
   pointer-events: none;

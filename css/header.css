@@ -11,7 +11,6 @@
   height: 100%;
   margin-right: 18%;
   margin-left: 18%;
-
 }
 
 .header-nav {
@@ -86,5 +85,4 @@
   transition: all .3s ease;
   }
   .nav-up {top: -100%;}
-  
 }
