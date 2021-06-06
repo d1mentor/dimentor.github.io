@@ -24,6 +24,7 @@
   <link rel="stylesheet" type="text/css" href="css/image.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">
   <link rel="stylesheet" type="text/css" href="css/special.css">
+  <link rel="stylesheet" type="text/css" href="css/check_boxes.css">
 
   <script async src="js/parallax.js-1.5.0/parallax.min.js"></script>
   <script src="js/header.js"></script>
@@ -114,7 +115,7 @@
       </p>
     </div>
 
-      <h2 class="title-medium buffer-both">Описание работы устройства</h2>
+      <h2 class="title-medium buffer-both text-center">Описание работы устройства</h2>
 
       <div class="container">
         <div class="column-1-2 optimized-width">
@@ -140,7 +141,7 @@
         </div>
       </div>
 
-      <h2 class="title-medium buffer-both">Аппаратная часть</h2>
+      <h2 class="title-medium buffer-both text-center">Аппаратная часть</h2>
     <div class="container">
       <div class="column-1-2 optimized-width">
         <div class="mini-img">
@@ -185,32 +186,6 @@
         </p>
       </div>
     </div>
-    <h2 class="title-medium buffer-both">Программная часть</h2>
-    <div class="container">
-    <p class="text-large indent">
-      GSM сигнализация "Щит" использует программу нашей разработки. Вы также можете использовать ее в своих проэктах. Код программы подробно прокомментирован.
-    </p>
-    <h3 class="title-small buffer-both">Загрузка программы</h3>
-          <ul class="list-left">
-            <li>Выберите и загрузите архив или бинарный файл с необходимым релизом (русскоязычная или англоязычная версия) программы из нашего репозитория на <a href="https://github.com/Gerasim75/security-and-emergency-device-on-arduino/releases" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-          </ul>
-          <h3 class="title-small buffer-both">Установка программы на контроллер Arduino Nano из среды Platformio</h3>
-
-          <ul class="list-left">
-            <li class="text-large">Открыть программу в новом проекте Platformio</li>
-            <li class="text-large">Раскомментировать в файле platformio.ini порт подключения для своей операционной системы, по умолчанию Unix</li>
-            <li class="text-large">Загрузить программу в контроллер штатным средством Platformio</li>
-          </ul>
-
-          <h3 class="title-small buffer-both">Установка программы на контроллер Arduino Nano из среды ArduinoIDE</h3>
-          <ul class="list-left">
-            <li>Создать новый проект в среде ArduinoIDE</li>
-            <li>Добавить в проект через менеджер библиотек: <a href="https://github.com/PaulStoffregen/SoftwareSerial/archive/refs/heads/master.zip">SoftwareSerial.h</a>, <a href="https://github.com/PaulStoffregen/EEPROM/archive/refs/heads/master.zip">EEPROM.h</a>, <a href="https://github.com/pythonista/CyberLib/archive/refs/heads/master.zip">CyberLib.h</a></li>
-            <li>Выбрать в настройках проекта плату Arduino Nano</li>
-            <li>Скопировать файлы из каталога src/ в каталог проекта ArduinoIDE</li>
-            <li>Загрузить программу в контроллер штатным средством ArduinoIDE</li>
-          </ul>
-        </div>
     </div>
 </div>
 
@@ -511,9 +486,41 @@
 
 <div class="container">
 
-<h2 class="title-medium buffer-both">Установки GSM сигнализации "Щит"</h2>
-          <p class="text-large">
-            <p class="indent">
+<h2 class="title-medium buffer-both text-center">Программная часть</h2>
+    <div class="container">
+    <p class="text-large indent">
+      GSM сигнализация "Щит" использует программу нашей разработки. Вы также можете использовать ее в своих проэктах. Код программы подробно прокомментирован.
+    </p>
+    <h3 class="title-small buffer-both">Загрузка программы</h3>
+          <ul class="list-left">
+            <li>Выберите и загрузите архив или бинарный файл с необходимым релизом (русскоязычная или англоязычная версия) программы из нашего репозитория на <a href="https://github.com/Gerasim75/security-and-emergency-device-on-arduino/releases" target="_blank" rel="noopener noreferrer" class="text-link">GitHub</a></li>
+          </ul>
+          <h3 class="title-small buffer-both">Установка программы на контроллер Arduino Nano из среды Platformio</h3>
+
+          <ul class="list-left">
+            <li class="text-large">Открыть программу в новом проекте Platformio</li>
+            <li class="text-large">Раскомментировать в файле platformio.ini порт подключения для своей операционной системы, по умолчанию Unix</li>
+            <li class="text-large">Загрузить программу в контроллер штатным средством Platformio</li>
+          </ul>
+
+          <h3 class="title-small buffer-both">Установка программы на контроллер Arduino Nano из среды ArduinoIDE</h3>
+          <ul class="list-left">
+            <li>Создать новый проект в среде ArduinoIDE</li>
+            <li>Добавить в проект через менеджер библиотек: <a class="text-link" href="https://github.com/PaulStoffregen/SoftwareSerial/archive/refs/heads/master.zip">SoftwareSerial.h</a>, <a href="https://github.com/PaulStoffregen/EEPROM/archive/refs/heads/master.zip" class="text-link">EEPROM.h</a>, <a class="text-link" href="https://github.com/pythonista/CyberLib/archive/refs/heads/master.zip">CyberLib.h</a></li>
+            <li>Выбрать в настройках проекта плату Arduino Nano</li>
+            <li>Скопировать файлы из каталога src/ в каталог проекта ArduinoIDE</li>
+            <li>Загрузить программу в контроллер штатным средством ArduinoIDE</li>
+          </ul>
+        </div>
+
+<h2 class="title-medium buffer-both text-center">Установки GSM сигнализации "Щит"</h2>
+
+<div class="text-center">
+  <input type="checkbox" id="hd-1" class="hide"/>
+  <label for="hd-1" class="text-medium"></label>
+    <div class="list-left">
+    <p class="text-large">
+            <p class="indent buffer-top">
               Датчики охранных зон 1 и 2 работают в паре по принципу «Коридор» - на зону 1 устанавливается время задержки срабатывания и при проникновении через зону 1 , зона 2 выдерживает паузу установленную для зоны 1, после чего происходит тревога, а при проникновении через зону 2 минуя зону 1 тревога происходит мгновенно.<br/>
             </p>
             <p class="indent">
@@ -578,17 +585,20 @@
             <li>один длинный звуковой сигнал - успешная загрузка контроллера, смена режима, подтверждение принятия номера админа/дублера</li>
             <li>повторяющиеся серии коротких звуковых и световых сигналов - входящий звонок</li>
           </ul>
+    </div>
+</div>
 
-      </div>
 
-  <div class="container buffer-both-large" id="contact">
+  </div>
+
+  <div class="container buffer-both-large action" id="contact">
     <h2 class="title-medium text-center">Контакты</h2>
     <div class="column-1-2">
       <h2 class="title-small text-center">Свяжитесь с нами!</h2>
       <ul class="list-left-large">
-        <li>☎ <a class="link" title="Позвонить на мобильный" href="tel:+380979166950">+38097-916-69-50</a></li>
-        <li>📧 <a class="link" title="Написать сообщение" href="mailto:vades@robot.zp.ua?subject=Запрос_с_сайта&">vades@robot.zp.ua</a></li>
-        <li>📧 <a class="link" title="Написать сообщение" href="mailto:gerasim@robot.zp.ua?subject=Запрос_с_сайта&">gerasim@robot.zp.ua</a></li>
+        <li>☎ <a class="link text-link" title="Позвонить на мобильный" href="tel:+380979166950">+38097-916-69-50</a></li>
+        <li>📧 <a class="link text-link" title="Написать сообщение" href="mailto:vades@robot.zp.ua?subject=Запрос_с_сайта&">vades@robot.zp.ua</a></li>
+        <li>📧 <a class="link text-link" title="Написать сообщение" href="mailto:gerasim@robot.zp.ua?subject=Запрос_с_сайта&">gerasim@robot.zp.ua</a></li>
         <li>г. Запорожье</li>
       </ul>
     </div>

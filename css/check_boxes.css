@@ -1,0 +1,46 @@
+/* скрываем чекбоксы и блоки с содержанием */
+.hide {
+    display: none; 
+}
+.hide + label ~ div{
+    display: none;
+}
+/* оформляем текст label */
+.hide + label {
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 30px;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.15);
+    font-weight: bold;
+    background: #8aba56;
+    color: #fff;
+    cursor: pointer;   
+}
+
+.hide + label:before {
+    content: "Показать установки ⇅";
+}
+
+.hide + label:hover {
+  background: #6a9a36;
+  transition: all ease .3s;
+}
+
+/* вид текста label при активном переключателе */
+.hide:checked + label:before {
+    content: "Скрыть установки ⇅";
+    border-bottom: 0;
+}
+/* когда чекбокс активен показываем блоки с содержанием  */
+.hide:checked + label + div {
+    display: block; 
+    background: #fff;
+    padding: 10px; 
+}
+
+/* demo контейнер */
+.demo {
+    margin: 5% 10%;
+}

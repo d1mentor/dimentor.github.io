@@ -28,3 +28,14 @@
   text-align: left; 
   margin-left: 20%;
 }
+
+.text-link {
+  text-decoration: none;
+  color: #333;
+  text-decoration: underline; 
+}
+
+.text-link:hover {
+  color: gray;
+  transition: all ease .3s;
+}
